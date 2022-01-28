@@ -83,6 +83,7 @@ fun updatePlacemark(){
     var searchId = getId()
     val aPlacemark = search(searchId)
 
+
     var inputTitle = "";
     var inputDes = "";
     if(aPlacemark != null) {
